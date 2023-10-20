@@ -1,0 +1,406 @@
+.page_2 {
+  width: 50vw;
+}
+
+.div_game {
+  width: 100%;
+  height: 50vh;
+}
+
+.div_win_x {
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.div_X {
+  width: 100%;
+  height: 7vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 6px;
+  background: #22252f;
+}
+
+.p_game_x {
+  color: whitesmoke;
+  border: 1px solid;
+  width: 3rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+}
+
+.p_game_x:active {
+  border: 2px solid #e5b300;
+  background-color: rgba(230, 234, 3, 0.6);
+}
+
+.div_question {
+  width: 1.5rem;
+  height: 1.5rem;
+  transform: skewX(-15deg);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #f88a25, #fab42d 50.52%, #f8b025);
+}
+
+.div_question:hover {
+  background: white;
+}
+
+.div_buttons {
+  width: 100%;
+  /* height: 20vh; */
+  display: flex;
+  justify-content: space-between;
+  /* gap: 1.3rem; */
+}
+
+.div_money {
+  width: 33%;
+  height: 14vh;
+  border-radius: 6px;
+  background: #22252f;
+}
+
+.div_plusminus {
+  width: 100%;
+  height: 7.5vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.p_minus {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: white;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.p_plus {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: black;
+  background: linear-gradient(180deg, #f88a25, #fab42d 50.52%, #f8b025);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.div_span {
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.span {
+  color: #fab42d;
+  display: flex;
+  align-items: center;
+}
+
+.div_money_save {
+  width: auto;
+  height: 7.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.p_save {
+  width: 2.1rem;
+  height: 1.2rem;
+  color: gold;
+  background: rgb(26, 24, 24);
+  opacity: 0.6;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.p_save:hover {
+  color: black;
+  background: gold;
+  opacity: 0.6;
+}
+
+.p_max {
+  width: 2.1rem;
+  height: 1.2rem;
+  color: gold;
+  background: rgb(26, 24, 24);
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.p_max:hover {
+  color: black;
+  background: gold;
+}
+
+.big_butoon {
+  width: 33%;
+  height: 14vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  width: 100%;
+  height: 14vh;
+  border-radius: 6px;
+  font-size: 1.5vw;
+  background: linear-gradient(180deg, #f88a25, #fab42d 50.52%, #f8b025);
+}
+
+.button:hover {
+  background: linear-gradient(180deg, #cf6a0b, #cd9015 50%, #c38404);
+}
+
+.div_money_x {
+  width: 33%;
+  height: 14vh;
+  background: #22252f;
+  border-radius: 6px;
+}
+
+.x_money {
+  width: 100%;
+  height: 7.5vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.div_click {
+  width: 14.7vw;
+  height: 4.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+}
+
+.input[type="checkbox"] {
+  height: 0;
+  width: 0;
+}
+
+.label {
+  cursor: pointer;
+  width: 2rem;
+  height: 1rem;
+  background: grey;
+  display: block;
+  border-radius: 100px;
+  position: relative;
+}
+
+.label:after {
+  content: "";
+  position: absolute;
+
+  left: 1px;
+  width: 1rem;
+  height: 1rem;
+  background: #fff;
+  border-radius: 90px;
+  transition: 0.3s;
+}
+
+.input:checked + .label {
+  background: #cd9015;
+}
+
+.input:checked + .label:after {
+  left: calc(100% - 1px);
+  transform: translateX(-100%);
+}
+
+.label:active:after {
+  width: 15px;
+}
+
+.p_butt {
+  color: white;
+}
+
+.BsQuestionCircle {
+  color: white;
+}
+
+.div_click {
+  width: 100%;
+}
+
+@media only screen and (max-width: 850px) {
+  .page_2 {
+    width: 90vw;
+    margin: 0 auto;
+  }
+
+  .div_X {
+    /* border: solid green; */
+    width: 100%;
+    gap: 1rem;
+  }
+}
+
+@media only screen and (max-width: 699px) {
+  .page_2 {
+    height: 84vh;
+  }
+
+  .div_buttons {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    transform: translate(0, -50%);
+    z-index: 1;
+    background-color: #22252f;
+    /* justify-content: space-evenly; */
+    padding: 1rem;
+  }
+
+  .div_money {
+    width: 43.5vw;
+    background: black;
+  }
+
+  .big_butoon {
+    width: 43.5vw;
+  }
+
+  .button {
+    width: 100%;
+    font-size: 1.3rem;
+  }
+
+  .div_money_x {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+  }
+
+  .x_money {
+    width: 81vw;
+    height: auto;
+    background: black;
+    justify-cntent: space-between;
+    border-radius: 6px;
+    /* border: solid gold; */
+  }
+
+  .div_click {
+    width: 96vw;
+    /* border: solid darkblue; */
+  }
+
+  .div_X {
+    /* border: solid green; */
+    width: 100%;
+    gap: 0.5rem;
+  }
+
+  .div_money {
+    height: 4rem;
+  }
+
+  .div_plusminus {
+    height: 2rem;
+  }
+
+  .div_money_save {
+    height: 2rem;
+  }
+
+  .big_butoon {
+    width: 45%;
+    height: 4rem;
+  }
+
+  .button {
+    height: 4rem;
+  }
+
+  .div_money_x {
+    width: 100%;
+    height: 3rem;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .div_win_x {
+    /* border: solid darkblue; */
+    width: 100%;
+  }
+
+  .div_X {
+    width: 100%;
+    height: 2.2rem;
+    justify-content: space-evenly;
+    padding: auto;
+  }
+
+  .p_game_x {
+    width: 1.8rem;
+    height: 1rem;
+    font-size: 0.5rem;
+  }
+
+  .div_money {
+    width: 45%;
+    height: 4rem;
+  }
+
+  .div_plusminus {
+    height: 2rem;
+  }
+
+  .div_money_save {
+    height: 2rem;
+  }
+
+  .big_butoon {
+    width: 45%;
+    height: 4rem;
+  }
+
+  .button {
+    height: 4rem;
+  }
+
+  .div_money_x {
+    width: 100%;
+    height: 3rem;
+  }
+}
